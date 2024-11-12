@@ -14,6 +14,7 @@ def space():
         "post3"
     ]
 
+
 @router.get("/{post_id}/")
 def get_neuro_post(post_id: Annotated[int, Path(ge=1)]):
     return {

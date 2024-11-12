@@ -1,6 +1,4 @@
-from typing import Annotated
-
-from fastapi import FastAPI, Path
+from fastapi import FastAPI
 import uvicorn
 from neuro.views import router as router_neuro
 from eating_disorder.views import router as router_ed
